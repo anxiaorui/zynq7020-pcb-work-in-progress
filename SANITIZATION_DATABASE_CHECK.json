@@ -1,0 +1,238 @@
+{
+  "status": "DATABASE_SANITIZATION_VERIFIED_NATIVE_OPEN_PENDING",
+  "source_sha256": "d4e60e5161dee90b5498ea1263977b7f2ff639dc5fa05c885e59723d4b996630",
+  "upload_candidate_sha256": "60b8f4c02b682a9fbe6685472a88be2d8906f9a6995d496a3dd5883b5da5453b",
+  "upload_candidate_size": 7692288,
+  "change": "Only users.password set NULL in independent copy; secure_delete then VACUUM. Original unmodified. Password values never selected, printed or logged.",
+  "schema_exact": true,
+  "quick_check": "ok",
+  "nonempty_password_rows": 0,
+  "tables": {
+    "attributes": {
+      "rows": 0,
+      "noncredential_records_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exact": true,
+      "excluded_columns": []
+    },
+    "backups": {
+      "rows": 0,
+      "noncredential_records_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exact": true,
+      "excluded_columns": []
+    },
+    "block_symbol_attributes": {
+      "rows": 0,
+      "noncredential_records_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exact": true,
+      "excluded_columns": []
+    },
+    "boards": {
+      "rows": 0,
+      "noncredential_records_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exact": true,
+      "excluded_columns": []
+    },
+    "branch_locks": {
+      "rows": 0,
+      "noncredential_records_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exact": true,
+      "excluded_columns": []
+    },
+    "branches": {
+      "rows": 2,
+      "noncredential_records_sha256": "74b5896619fbed31cbbbb5b5cc27e2361f4971ce3b5e275409e5d5f4faf2d5ef",
+      "exact": true,
+      "excluded_columns": []
+    },
+    "broadcast_messages": {
+      "rows": 0,
+      "noncredential_records_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exact": true,
+      "excluded_columns": []
+    },
+    "categories": {
+      "rows": 0,
+      "noncredential_records_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exact": true,
+      "excluded_columns": []
+    },
+    "component_full_history_logs": {
+      "rows": 0,
+      "noncredential_records_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exact": true,
+      "excluded_columns": []
+    },
+    "component_histories": {
+      "rows": 0,
+      "noncredential_records_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exact": true,
+      "excluded_columns": []
+    },
+    "components": {
+      "rows": 0,
+      "noncredential_records_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exact": true,
+      "excluded_columns": []
+    },
+    "components_tmp": {
+      "rows": 0,
+      "noncredential_records_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exact": true,
+      "excluded_columns": []
+    },
+    "coppers": {
+      "rows": 0,
+      "noncredential_records_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exact": true,
+      "excluded_columns": []
+    },
+    "db_paths": {
+      "rows": 0,
+      "noncredential_records_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exact": true,
+      "excluded_columns": []
+    },
+    "db_versions": {
+      "rows": 1,
+      "noncredential_records_sha256": "ea791740e039b8259438b12e346037f602d9f8b876b86f3ac7fdd2ae4033b13c",
+      "exact": true,
+      "excluded_columns": []
+    },
+    "devices": {
+      "rows": 0,
+      "noncredential_records_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exact": true,
+      "excluded_columns": []
+    },
+    "documents": {
+      "rows": 0,
+      "noncredential_records_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exact": true,
+      "excluded_columns": []
+    },
+    "editor_caches": {
+      "rows": 0,
+      "noncredential_records_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exact": true,
+      "excluded_columns": []
+    },
+    "history_data": {
+      "rows": 78,
+      "noncredential_records_sha256": "47f27eff144fe16b746c26e2b34c6e87eef3643694ca965c24bd0ef0e5670bb1",
+      "exact": true,
+      "excluded_columns": []
+    },
+    "notifications": {
+      "rows": 0,
+      "noncredential_records_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exact": true,
+      "excluded_columns": []
+    },
+    "project_attributes": {
+      "rows": 0,
+      "noncredential_records_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exact": true,
+      "excluded_columns": []
+    },
+    "project_histories": {
+      "rows": 0,
+      "noncredential_records_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exact": true,
+      "excluded_columns": []
+    },
+    "project_history_6ab2e56a50e744b680fa10916cf0e109": {
+      "rows": 63,
+      "noncredential_records_sha256": "5802638c3a394bd30172982d0ae3e7270bd151642b08a38da11bb6da11ce5170",
+      "exact": true,
+      "excluded_columns": []
+    },
+    "project_images": {
+      "rows": 25,
+      "noncredential_records_sha256": "b5953beec019a5c0e168f45dfc0c20c3d21e7aef2d27158db48250c5090697ba",
+      "exact": true,
+      "excluded_columns": []
+    },
+    "project_logs": {
+      "rows": 0,
+      "noncredential_records_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exact": true,
+      "excluded_columns": []
+    },
+    "project_members": {
+      "rows": 1,
+      "noncredential_records_sha256": "7f32504facf060ede68a1cabbdd1713094629a470ae2b2d06c3ffeb6eba87a66",
+      "exact": true,
+      "excluded_columns": []
+    },
+    "project_structures": {
+      "rows": 68,
+      "noncredential_records_sha256": "b2f6ecbd8857ea46c0176ee5f5c488b14c5474994aa3ccdca31be788c8a40127",
+      "exact": true,
+      "excluded_columns": []
+    },
+    "projects": {
+      "rows": 1,
+      "noncredential_records_sha256": "6edc23427622d3609035d6b0b8d41a368805f65f6b6f13077831f1e65a599b40",
+      "exact": true,
+      "excluded_columns": []
+    },
+    "resources": {
+      "rows": 0,
+      "noncredential_records_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exact": true,
+      "excluded_columns": []
+    },
+    "schematics": {
+      "rows": 0,
+      "noncredential_records_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exact": true,
+      "excluded_columns": []
+    },
+    "sessions": {
+      "rows": 0,
+      "noncredential_records_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exact": true,
+      "excluded_columns": []
+    },
+    "sqlite_sequence": {
+      "rows": 4,
+      "noncredential_records_sha256": "94d03908baaa177ac16c2e77cc6109cfffebd1bd0b58fc479b3830d0f277d8bd",
+      "exact": true,
+      "excluded_columns": []
+    },
+    "system_attributes": {
+      "rows": 0,
+      "noncredential_records_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exact": true,
+      "excluded_columns": []
+    },
+    "system_config": {
+      "rows": 0,
+      "noncredential_records_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exact": true,
+      "excluded_columns": []
+    },
+    "team_members": {
+      "rows": 0,
+      "noncredential_records_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exact": true,
+      "excluded_columns": []
+    },
+    "texts": {
+      "rows": 0,
+      "noncredential_records_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "exact": true,
+      "excluded_columns": []
+    },
+    "users": {
+      "rows": 1,
+      "noncredential_records_sha256": "1bdccabf5e4dcd4a0cc5958bdef0f5d8523311f66a284eb26057e40831908183",
+      "exact": true,
+      "excluded_columns": [
+        "password"
+      ]
+    }
+  },
+  "non_null_password_rows": 0,
+  "freelist_count": 0
+}

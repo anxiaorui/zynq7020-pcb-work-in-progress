@@ -1,0 +1,66 @@
+{
+  "status": "OFFICIAL_EDA_REOPEN_READONLY_CORE_CARRIER_EXACT_DESIGN_PASS",
+  "timestamp_utc": "2026-11-02T02:42:22.388842+00:00",
+  "app": "JLCEDA Pro4.1.93",
+  "method": "Official Open clean file then actualCORE andCARRIER render. One getter-only source/9-state export per board. No DRC recompute, primitive writes, save or upload. No import warning observed.",
+  "boards": {
+    "core": {
+      "current_snapshot": "github_upload/safety_review/clean_upload_core_readonly.json",
+      "sha256": "5c826bb0c0554f6abcb2a1c6e6bc5d4c5c2be61eb1cdc0e27d62299f75cef627",
+      "baseline_snapshot": "pcb_task/reports/phy_ground_l20_cold0140.json",
+      "baseline_sha256": "52f105ad66d350b8094d5c59e35dbd7afbdb3f8844b2e11d2849175e557b04d8",
+      "document_uuid": "7eb5cdbfc8501f0f",
+      "nine_state_fields_equal": {
+        "components": true,
+        "lines": true,
+        "vias": true,
+        "pairs": true,
+        "nets": true,
+        "config": true,
+        "netRules": true,
+        "classes": true,
+        "regionRules": true
+      },
+      "nonDOCHEAD_source_full_header_and_value_multiset_exact": true,
+      "DOCHEAD": "runtime client/update/version metadata excluded explicitly",
+      "inventory": {
+        "lines": 1223,
+        "vias": 340,
+        "components": 347
+      },
+      "coordinate_array_order_preserved": true
+    },
+    "carrier": {
+      "current_snapshot": "github_upload/safety_review/clean_upload_carrier_readonly.json",
+      "sha256": "9cdd73db8c0589bc1a30f22d9d5d51be6007c7a81640459c768bbab72ef1ea3a",
+      "baseline_snapshot": "pcb_task/reports/sd_ground_l16_cold1628.json",
+      "baseline_sha256": "3fd3b92d4b99f705680742a9bbad11b6f1e438b4ed8e70e4918464a31c0140e3",
+      "document_uuid": "08167ba4d619246a",
+      "nine_state_fields_equal": {
+        "components": true,
+        "lines": true,
+        "vias": true,
+        "pairs": true,
+        "nets": true,
+        "config": true,
+        "netRules": true,
+        "classes": true,
+        "regionRules": true
+      },
+      "nonDOCHEAD_source_full_header_and_value_multiset_exact": true,
+      "DOCHEAD": "runtime client/update/version metadata excluded explicitly",
+      "inventory": {
+        "lines": 881,
+        "vias": 192,
+        "components": 358
+      },
+      "coordinate_array_order_preserved": true
+    }
+  },
+  "clean_project_sha256_before_and_after": "60b8f4c02b682a9fbe6685472a88be2d8906f9a6995d496a3dd5883b5da5453b",
+  "clean_project_bytes": 7692288,
+  "clean_unchanged": true,
+  "original_main_sha256": "d4e60e5161dee90b5498ea1263977b7f2ff639dc5fa05c885e59723d4b996630",
+  "original_main_unchanged": true,
+  "limits": "Native reopen and design preservation only, not PCB completion/SI/manufacturing acceptance. Do not upload originalcredential-bearing file."
+}
